@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <style>
+        body {
+            background-image: url('https://th.bing.com/th/id/OIP.xJKEbFzXphB2MVFayH_ioAHaEK?w=310&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3');
+            background-size: cover;
+            background-repeat: no-repeat;
+            /* Prevent tiling */
+            background-position: center;
+            /* Center the image */
+            backdrop-filter: blur(3px);
+        }
+
+        h1 {
+            margin-top: 3%;
+            text-align: center;
+            font-size: 50px;
+        }
+
+        form {
+            margin-left: 15%;
+            margin-top: 5%;
+        }
+
+        .form-row {
+            display: flex;
+            gap: 35%;
+            /* space between fields */
+            margin-bottom: 15px;
+            align-items: center;
+        }
+
+        label {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 300px;
+        }
+
+        button {
+            /* Makes the button span the full width of the form */
+            padding: 20px;
+            /* Increase padding for better height */
+            border: none;
+            background-color: #1992d8;
+            color: white;
+            border-radius: 60px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-left: 40px;
+            margin-top: px;
+
+        }
+
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>HEART DISEASE ANALYSIS</h1>
+    <form method="post">
+
+        <div class="form-row">
+            <div>
+                <label for="">Age</label><br>
+                <input type="number" name="age"><br><br>
+            </div>
+            <div>
+                <label for="sex">Sex</label><br>
+                <select name="sex" id="sex">
+                    <option value=>--Select--</option>
+                    <option value=1>Male</option>
+                    <option value=0>Female</option>
+                </select><br><br>
+            </div>
+
+        </div>
+        <div class="form-row">
+            <div>
+                <label for="">CP</label><br>
+                <input type="number" name="cp"> <br><br>
+            </div>
+            <div>
+                <label for="">Trestbps</label><br>
+                <input type="number" name="trestbps"> <br><br>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div>
+                <label for="">Chol</label><br>
+                <input type="number" name="chol"> <br><br>
+            </div>
+            <div>
+                <label for="">FBS</label><br>
+                <input type="number" name="fbs"> <br><br>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div>
+                <label for="">RestECG</label><br>
+                <input type="number" name="restecg"> <br><br>
+            </div>
+            <div>
+                <label for="">Thalach</label><br>
+                <input type="number" name="thalach"> <br><br>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div>
+                <label for="">Exang</label><br>
+                <input type="number" name="exang"> <br><br>
+            </div>
+            <div>
+                <label for="">Oldpeak</label><br>
+                <input type="number" name="oldspeak"> <br><br>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div>
+                <label for="">Slope</label><br>
+                <input type="number" name="slope"> <br><br>
+            </div>
+            <div>
+                <label for="">CA</label><br>
+                <input type="number" name="ca"> <br><br>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div>
+                <label for="">Thal</label><br>
+                <input type="number" name="thal">
+            </div>
+            <div>
+                <button>Check for the result</button>
+            </div>
+        </div>
+
+    </form>
+    <h2>{{a}}</h2>
+</body>
+
+</html>

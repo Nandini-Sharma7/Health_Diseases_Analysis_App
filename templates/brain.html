@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <style>
+        body {
+            background-image: url('data:image/jpeg;base64,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bATS6BgQdiLaEg/EaiYeG4KqjVGrYhquZzkXKqJTp39VbL7bWtdj00A1uHQlNZxt8ew/eSqNy5meIgzeQAgEqEnY/sOp/aTvr5CVU23sLkk+Q101li6m/ugTiIgIiICIiAiIgIiICIiBA0+mnlPGDdf0lkQK1Y8x+t5XYBttPLaaIgU5V6/M/SVtlW7G9lF9iT8BqT2mm0i2hvAx4LECo7FjY/cRgVYJYDNkNjqb627db75RisJTqgCoiuAbjMAbHqL7HvKn4epTKr1F7ioxYeRYn4QOcW+zviK71zTpMyKqvY0/EsFJpr7V2YgBQdWBIBLXPTpVKv3kUi2mVjmP5WUAf8pw+DejFXDYtq7Y2viKbUyop1zmNNrghqZWyjS4Pq31Gulj9NA+awXpU9XGnB/Yq9JlpmoXreGtMoCFvTNNnFQ3YaXHe20+llVSldlYWuLgnnlI1APmFP5ZYb8oBmtKwhNiet7coItqdfr7pPP5/AwJQDIG57D5/wCIUEaaWgGvfTp7p4wPNrDtp85LXt9YCddYEFU3uAAPn5meqhGnz5yyIFa09Lcv5vLIiAiIgIiICIiAiIgIiICIiAiIgIiICCIiBAAjuPnPc4kogRNQdYUk9h84yCMogeE30+M9yyUQPAonsRAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQP//Z');
+            background-size: cover;
+            background-repeat: no-repeat;
+            /* Prevent tiling */
+            background-position: center;
+            /* Center the image */
+            backdrop-filter: blur(px);
+        }
+
+        h1 {
+            margin-top: 3%;
+            text-align: center;
+            font-size: 50px;
+
+            color: #6456a2;
+        }
+
+        form {
+            margin-left: 25%;
+            margin-top: 5%;
+        }
+
+        .form-row {
+            display: flex;
+            gap: 15%;
+            /* space between fields */
+            margin-bottom: 15px;
+            align-items: center;
+        }
+
+        label {
+            font-size: 18px;
+            font-weight: bold;
+            color: rgb(0, 0, 0);
+        }
+
+        input {
+            width: 300px;
+        }
+
+        button {
+            /* Makes the button span the full width of the form */
+            padding: 30px;
+            /* Increase padding for better height */
+            border: none;
+            background-color: #7957a9;
+            color: white;
+            border-radius: 60px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-left: 27%;
+        }
+
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>BRAIN STROKE ANALYSIS</h1>
+    <form method="post">
+
+        <div class="form-row">
+            <div>
+                <label for="">Gender</label><br>
+                <input type="number" name="gender"><br><br>
+            </div>
+            <div>
+                <label for="">Age</label><br>
+                <input type="number" name="age"><br><br>
+            </div>
+        </div>
+        <div class="form-row">
+            <div>
+                <label for="">Hypertension</label><br>
+                <input type="number" name="hyper"> <br><br>
+            </div>
+            <div>
+                <label for="">Heart Disease</label><br>
+                <input type="number" name="heartdisease"> <br><br>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div>
+                <label for="">Ever Married</label><br>
+                <input type="number" name="ever"> <br><br>
+            </div>
+            <div>
+                <label for="">Work Type</label><br>
+                <input type="number" name="fbs" id="work"> <br><br>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div>
+                <label for="">Residence Type</label><br>
+                <input type="number" name="type"> <br><br>
+            </div>
+            <div>
+                <label for="">Avg Glucose Llevel</label><br>
+                <input type="number" name="avg"> <br><br>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div>
+                <label for="">BMI</label><br>
+                <input type="number" name="bmi"> <br><br>
+            </div>
+            <div>
+                <label for="">Smoking Status</label><br>
+                <input type="number" name="smoking"> <br><br>
+            </div>
+        </div>
+
+
+        <button>Check for the result</button>
+
+    </form>
+    <h2>{{r}}</h2>
+</body>
+
+</html>

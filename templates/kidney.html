@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <style>
+        body {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGuZAC8103UnncXFLhrIHqsblvd4HBC9PLrA&s');
+            background-size: 79%;
+            background-repeat: no-repeat;
+            /* Prevent tiling */
+            background-position: center;
+            /* Center the image */
+        }
+
+        h1 {
+            margin-top: 3%;
+            text-align: center;
+            font-size: 50px;
+
+            color: rgb(20, 92, 32);
+        }
+
+        form {
+            margin-left: 15%;
+            margin-top: 3%;
+        }
+
+        .form-row {
+            display: flex;
+            gap: 35%;
+            /* space between fields */
+            margin-bottom: 15px;
+            align-items: center;
+        }
+
+        label {
+            font-size: 18px;
+            font-weight: bold;
+            color: rgb(16, 69, 7);
+        }
+
+        input {
+            width: 300px;
+        }
+
+        button {
+            /* Makes the button span the full width of the form */
+            padding: 30px;
+            /* Increase padding for better height */
+            border: none;
+            background-color: rgb(57, 146, 72);
+            color: white;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-left: 69%;
+
+        }
+
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>KIDENY DISEASE DETECTION</h1>
+    <form method="post">
+
+        <div class="form-row">
+            <div>
+                <label for="">Blood Pressure</label><br>
+                <input type="number" name="bp"><br><br>
+            </div>
+            <div>
+                <label for="">Specific Gravity</label><br>
+                <input type="number" name="sg"> <br><br>
+            </div>
+
+        </div>
+
+
+        <div class="form-row">
+            <div>
+                <label for="">Albumin</label><br>
+                <input type="number" name="al"> <br><br>
+            </div>
+
+            <div>
+                <label for="">Sugar</label><br>
+                <input type="number" name="su"> <br><br>
+            </div>
+
+        </div>
+
+
+        <div class="form-row">
+
+            <div>
+                <label for="">Red Blood Cell</label><br>
+                <input type="number" name="rbc"> <br><br>
+            </div>
+
+            <div>
+                <label for="">Blood Urea</label><br>
+                <input type="number" name="bu"> <br><br>
+            </div>
+
+
+        </div>
+
+        <div class="form-row">
+
+            <div>
+                <label for="">Serum Creatinine</label><br>
+                <input type="number" name="sc"> <br><br>
+            </div>
+
+            <div>
+                <label for="">Sodium</label><br>
+                <input type="number" name="sod"> <br><br>
+            </div>
+
+
+        </div>
+
+        <div class="form-row">
+            <div>
+                <label for="">Potassium</label><br>
+                <input type="number" name="pot"> <br><br>
+            </div>
+
+            <div>
+                <label for="">Hemoglobin</label><br>
+                <input type="number" name="hemo"> <br><br>
+            </div>
+
+
+
+        </div>
+
+
+        <div class="form-row">
+            <div>
+                <label for="">White Blood Cell Count</label><br>
+                <input type="number" name="wbcc"> <br><br>
+            </div>
+
+            <div>
+                <label for="">Red Blood Cell Count</label><br>
+                <input type="number" name="rbcc"> <br><br>
+            </div>
+
+
+
+        </div>
+
+        <div class="form-row">
+            <div>
+                <label for="">Hypertension</label><br>
+                <input type="number" name="htn"> <br><br>
+            </div>
+
+            <div>
+                <button>SUBMIT</button>
+            </div>
+        </div>
+
+
+
+    </form>
+    <h2>{{r}}</h2>
+</body>
+
+</html>

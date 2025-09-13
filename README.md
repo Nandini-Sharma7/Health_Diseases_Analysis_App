@@ -10,9 +10,9 @@ This project is a web-based application built with Flask that utilizes pre-train
 
 "Lung Disease Prediction": Determines the risk of developing a lung-related condition. 🫁
 
-"Kidney Disease Prediction": Analyzes data to detect the presence of chronic kidney disease. 🫘
+" Kidney Disease Prediction ": Analyzes data to detect the presence of chronic kidney disease. 🫘
 
-"User-Friendly Interface": A simple and clean web interface for data input and result display.
+" User-Friendly Interface ": A simple and clean web interface for data input and result display.
 
 # 🛠️ Tech Stack
 

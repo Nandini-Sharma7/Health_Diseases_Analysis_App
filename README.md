@@ -23,3 +23,9 @@ Web Framework: Flask 🧪
 Machine Learning: joblib for model loading 📦
 
 Frontend: HTML, Tailwind CSS (for styling)
+
+💡 Future Improvements
+
+Add more diseases for prediction
+
+Enhance recommendation system with diet & fitness APIs

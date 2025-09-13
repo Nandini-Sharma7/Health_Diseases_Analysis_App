@@ -4,22 +4,22 @@ This project is a web-based application built with Flask that utilizes pre-train
 
 # ✨ Features
 
-"Heart Disease Prediction": A model to assess the risk of heart disease. ❤️
+Heart Disease Prediction: A model to assess the risk of heart disease. ❤️
 
-"Brain Stroke Prediction": Predicts the likelihood of a brain stroke. 🧠
+Brain Stroke Prediction: Predicts the likelihood of a brain stroke. 🧠
 
-"Lung Disease Prediction": Determines the risk of developing a lung-related condition. 🫁
+Lung Disease Prediction: Determines the risk of developing a lung-related condition. 🫁
 
-" Kidney Disease Prediction ": Analyzes data to detect the presence of chronic kidney disease. 🫘
+Kidney Disease Prediction: Analyzes data to detect the presence of chronic kidney disease. 🫘
 
-" User-Friendly Interface ": A simple and clean web interface for data input and result display.
+User-Friendly Interface: A simple and clean web interface for data input and result display.
 
 # 🛠️ Tech Stack
 
-"Backend": Python 🐍
+Backend: Python 🐍
 
-"Web Framework": Flask 🧪
+Web Framework: Flask 🧪
 
-"Machine Learning": joblib for model loading 📦
+Machine Learning: joblib for model loading 📦
 
-"Frontend": HTML, Tailwind CSS (for styling)
+Frontend: HTML, Tailwind CSS (for styling)
